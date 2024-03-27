@@ -1,4 +1,61 @@
 ﻿@page
 @model MyApp.Namespace.Labwork5_PageModel
 @{
+    
 }
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Göster/Gizle ve Hesap Makinesi</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+
+<div id="gizlenecekBolum">
+    Bu bölüm göster ve gizle butonu ile yönetilecek.
+</div>
+
+<button id="gosterGizleButon">Gizle</button>
+
+<div id="hesapMakinesi" style="display:none;">
+    <input type="number" id="sayi1" placeholder="Sayı 1">
+    + 
+    <input type="number" id="sayi2" placeholder="Sayı 2">
+    <button id="hesaplaButon">Hesapla</button>
+    <span id="sonuc"></span>
+</div>
+
+<button id="hesapMakinesiButon">Hesap Makinesi Göster/Gizle</button>
+
+<script>
+$(document).ready(function(){
+    $("#gosterGizleButon").click(function(){
+        $("#gizlenecekBolum").toggle();
+        // Buton metnini güncelle
+        if ($("#gizlenecekBolum").is(":visible")) {
+            $(this).text("Gizle");
+        } else {
+            $(this).text("Göster");
+        }
+    });
+
+    $("#hesapMakinesiButon").click(function(){
+        $("#hesapMakinesi").toggle();
+    });
+
+    $("#hesaplaButon").click(function(){
+        var sayi1 = parseInt($("#sayi1").val());
+        var sayi2 = parseInt($("#sayi2").val());
+        if (!isNaN(sayi1) && !isNaN(sayi2)) { // Sadece sayısal değerler girildiyse
+            var toplam = sayi1 + sayi2;
+            $("#sonuc").text("Sonuç: " + toplam);
+        } else {
+            $("#sonuc").text("Lütfen sayısal değerler girin.");
+        }
+    });
+});
+</script>
+
+</body>
+</html>
