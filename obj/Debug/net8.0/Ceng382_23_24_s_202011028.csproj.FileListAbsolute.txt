@@ -1,0 +1,15 @@
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/bin/Debug/net8.0/Ceng382_23_24_s_202011028
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/bin/Debug/net8.0/Ceng382_23_24_s_202011028.deps.json
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/bin/Debug/net8.0/Ceng382_23_24_s_202011028.runtimeconfig.json
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/bin/Debug/net8.0/Ceng382_23_24_s_202011028.dll
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/bin/Debug/net8.0/Ceng382_23_24_s_202011028.pdb
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.GeneratedMSBuildEditorConfig.editorconfig
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.AssemblyInfoInputs.cache
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.AssemblyInfo.cs
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.csproj.CoreCompileInputs.cache
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.sourcelink.json
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.dll
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/refint/Ceng382_23_24_s_202011028.dll
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.pdb
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.genruntimeconfig.cache
+/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/ref/Ceng382_23_24_s_202011028.dll
