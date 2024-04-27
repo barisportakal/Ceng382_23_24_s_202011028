@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "F7inPCMTjDdV3ANgzYRMdp+FGkfUHe9ysf3S0zaIZ0iwGMw7qRc7HLy9i49LQVsedo27RdEZbUz1psducOtzqw==",
+  "dgSpecHash": "qUZPpHE/7jtpMgopAbTF7RcQp2Z6X3FbQkxCjXlcH0VA0F/KTrJnoOI65YiE98GJhmr+WozoyHx0WwFqblVuYw==",
   "success": true,
-  "projectFilePath": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/Ceng382_23_24_s_202011028.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/ReservationSystem.csproj",
+  "expectedPackageFiles": [
+    "/Users/barisportakal/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

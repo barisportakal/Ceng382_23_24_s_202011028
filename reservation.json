@@ -1,0 +1,94 @@
+{
+  "Reservations": [
+    {
+      "Time": "2024-04-26T00:10:30.643773+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "merve arik",
+      "Room": {
+        "RoomId": "015",
+        "RoomName": "A-115",
+        "Capacity": 50
+      }
+    },
+    {
+      "Time": "2024-04-26T00:16:33.454914+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "tolga arik",
+      "Room": {
+        "RoomId": "015",
+        "RoomName": "A-115",
+        "Capacity": 50
+      }
+    },
+    {
+      "Time": "2024-04-26T00:26:04.032254+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-26T00:28:58.935939+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-26T00:29:39.234106+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-26T00:30:14.474176+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-26T00:40:15.265891+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-26T01:22:50.677549+03:00",
+      "Date": "2024-04-26T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    },
+    {
+      "Time": "2024-04-27T08:36:51.435158+03:00",
+      "Date": "2024-04-27T00:00:00+03:00",
+      "ReserverName": "baris portakal",
+      "Room": {
+        "RoomId": "016",
+        "RoomName": "A-116",
+        "Capacity": 52
+      }
+    }
+  ]
+}

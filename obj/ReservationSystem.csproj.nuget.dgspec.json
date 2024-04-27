@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/Ceng382_23_24_s_202011028.csproj": {}
+    "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/ReservationSystem.csproj": {}
   },
   "projects": {
-    "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/Ceng382_23_24_s_202011028.csproj": {
+    "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/ReservationSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/Ceng382_23_24_s_202011028.csproj",
-        "projectName": "Ceng382_23_24_s_202011028",
-        "projectPath": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/Ceng382_23_24_s_202011028.csproj",
+        "projectUniqueName": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/ReservationSystem.csproj",
+        "projectName": "ReservationSystem",
+        "projectPath": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/ReservationSystem.csproj",
         "packagesPath": "/Users/barisportakal/.nuget/packages/",
         "outputPath": "/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/",
         "projectStyle": "PackageReference",
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
