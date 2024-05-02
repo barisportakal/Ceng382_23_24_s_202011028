@@ -23,5 +23,15 @@ namespace ReservationSystem
         {
             reservationHandler.DisplayWeeklySchedule();
         }
+
+        public List<Reservation> DisplayReservationByReserver(string name)
+        {
+            return reservationHandler.DisplayReservationByReserver(name);
+        }
+
+        public List<Reservation> DisplayReservationByRoomId(string Id)
+        {
+            return reservationHandler.DisplayReservationByRoomId(Id);
+        }
     }
 }
