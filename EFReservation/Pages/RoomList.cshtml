@@ -1,0 +1,31 @@
+@page
+@model EFReservation.Pages.RoomListModel
+@{
+    ViewData["Title"] = "Room List";
+}
+
+<h2>Room List</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Room Name</th>
+            <th>Capacity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var room in Model.Rooms)
+        {
+            <tr>
+                <td>@room.RoomName</td>
+                <td>@room.Capacity</td>
+                <td>
+                    <a asp-page="./RoomEdit" asp-route-id="@room.Id" class="btn btn-primary">Edit</a>
+                    <a asp-page="./RoomDelete" asp-route-id="@room.Id" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-page="./RoomCreate" class="btn btn-primary">Add New Room</a>

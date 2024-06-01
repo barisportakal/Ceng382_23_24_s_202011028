@@ -26,8 +26,44 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/ReservationCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzZXJ2YXRpb25DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/ReservationList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzZXJ2YXRpb25MaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/RoomCreate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9vbUNyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/RoomDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9vbURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/RoomEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9vbUVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/RoomList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUm9vbUxpc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/EFReservation/Pages/Shared/_ValidationScriptsPartial.cshtml]

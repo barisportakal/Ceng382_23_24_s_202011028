@@ -1,0 +1,38 @@
+@page
+@model EFReservation.Pages.ReservationCreateModel
+@{
+    ViewData["Title"] = "Create Reservation";
+}
+
+<h2>Create Reservation</h2>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Reservation.Date" class="control-label"></label>
+        <input asp-for="Reservation.Date" class="form-control datetimepicker" />
+        <span asp-validation-for="Reservation.Date" class="text-danger"></span>
+    </div>
+   <div class="form-group">
+    <label asp-for="Reservation.Room.Id" class="control-label"></label>
+    <select asp-for="Reservation.Room.Id" class="form-control" asp-items="Model.Rooms">
+        <option value="">Select a room</option>
+    </select>
+   <span asp-validation-for="Reservation.Room.Id" class="text-danger"></span>
+</div>
+
+    <div class="form-group">
+        <input type="submit" value="Create" class="btn btn-primary" />
+    </div>
+</form>
+<a asp-page="./ReservationList" class="btn btn-secondary">Back to List</a>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+    <script type="text/javascript">
+        $(function () {
+            $('.datetimepicker').datetimepicker({
+                format: 'Y-m-d H:i'
+            });
+        });
+    </script>
+}

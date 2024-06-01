@@ -1,26 +1,48 @@
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using EFReservation.Models;
 
 namespace EFReservation
 {
-    public class AppDbContext : DbContext
+    public class AppDbContext : IdentityDbContext
     {
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
         {
         }
 
-        // DbSet'ler burada tanımlanır
-        // Örnek olarak Reservation ve Room sınıflarını kullanıyoruz
-     //   public DbSet<Reservation> Reservations { get; set; }
         public DbSet<Room> Rooms { get; set; }
-         public DbSet<Reservation> Reservations { get; set; }  // Yeni eklenen Reservation DbSet
-
+        public DbSet<Reservation> Reservations { get; set; }
+        public DbSet<Log> Logs { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Veritabanı tablolarının ilişkilerini ve özelliklerini tanımlamak için kullanılır
-            // Örneğin, eğer bir ilişki varsa veya özel sütun ayarları yapılması gerekiyorsa burada tanımlanır
-        //    modelBuilder.Entity<Reservation>().ToTable("Reservations");
+            base.OnModelCreating(modelBuilder);
+
             modelBuilder.Entity<Room>().ToTable("Rooms");
+            modelBuilder.Entity<Reservation>().ToTable("Reservations");
+            modelBuilder.Entity<Log>().ToTable("Logs");
+
+            modelBuilder.Entity<Reservation>()
+                .HasOne(r => r.Room)
+                .WithMany()
+                .HasForeignKey(r => r.RoomId)
+                .OnDelete(DeleteBehavior.Cascade);
+
+            modelBuilder.Entity<Reservation>()
+                .Property(r => r.Date)
+                .IsRequired();
+
+            modelBuilder.Entity<Room>()
+                .Property(r => r.RoomName)
+                .IsRequired();
+
+            modelBuilder.Entity<Log>()
+                .Property(l => l.Action)
+                .IsRequired();
+
+            modelBuilder.Entity<Log>()
+                .Property(l => l.Timestamp)
+                .IsRequired();
         }
     }
 }
