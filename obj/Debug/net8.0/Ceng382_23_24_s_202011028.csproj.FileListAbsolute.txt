@@ -13,3 +13,11 @@
 /Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.pdb
 /Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/Ceng382_23_24_s_202011028.genruntimeconfig.cache
 /Users/barisportakal/Documents/GitHub/Ceng382_23_24_s_202011028/obj/Debug/net8.0/ref/Ceng382_23_24_s_202011028.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.AssemblyInfoInputs.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.AssemblyInfo.cs
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.csproj.CoreCompileInputs.cache
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.sourcelink.json
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\refint\Ceng382_23_24_s_202011028.dll
+C:\Users\user\OneDrive\Masaüstü\382\Ceng382_23_24_s_202011028\obj\Debug\net8.0\Ceng382_23_24_s_202011028.pdb
